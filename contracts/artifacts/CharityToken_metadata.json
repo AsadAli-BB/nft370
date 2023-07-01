@@ -370,6 +370,24 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "nftId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address payable",
+						"name": "to",
+						"type": "address"
+					}
+				],
+				"name": "purchaseNFT",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "renounceOwnership",
 				"outputs": [],
@@ -382,6 +400,11 @@
 						"internalType": "address",
 						"name": "to",
 						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Nftcat",
+						"type": "uint256"
 					}
 				],
 				"name": "safeMint",
@@ -791,11 +814,11 @@
 			]
 		},
 		"contracts/charityNFT.sol": {
-			"keccak256": "0xe6e0c02207298fe9f734aa060abefa5d019c3194d06558a28c6aee6d2fec7114",
+			"keccak256": "0x7d4609569e75e0a1fe569ab953021c196ff359ea3470236dbc6e241e73aef332",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e9096784011de7ecc5c4e5464a22ec31403bd47e991737e5343e2411ec6e0cc6",
-				"dweb:/ipfs/QmNQnWpREBQRDEmH2u8rS9av4HXPopFsNUJa163KKzVr4S"
+				"bzz-raw://dd20b961509ca853281be3b379c262000486d1daa43a217821ff816f0230ad59",
+				"dweb:/ipfs/Qmar2RiLAVch5JigHUbvusasgfY8gAkbevJPsPybf8uVd7"
 			]
 		}
 	},
