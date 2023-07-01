@@ -921,11 +921,11 @@
 			]
 		},
 		"contracts/charityNFT.sol": {
-			"keccak256": "0x6c22af597433e51ce561ced7591933c289760a122a6eb66ebd7776492f93d745",
+			"keccak256": "0x9399f0e90a7e01d1980a2a78e501cc1e8c0ecaaca815b92cfcd77ddfcdc5544e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://9a359c8b3dbd817b0af5cf1fde82c2acf239cececf93ae40b4190229c62f1f4e",
-				"dweb:/ipfs/QmQUGX2DTnYLaD64rTtPCWDtFborJyn2hnFMF4R66xaMNZ"
+				"bzz-raw://73cc54806bf139700963cefd2bc7229309ec86a7ac08bb38d26a8d065a941b1e",
+				"dweb:/ipfs/Qmbs4jsgyTqCoKy3DjGckaFee1VeLzCuPkPNCa1REmsqC4"
 			]
 		}
 	},

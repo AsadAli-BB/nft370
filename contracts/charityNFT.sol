@@ -1,25 +1,9 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.9;
 
-
-// use case defining 
-// Admin can Mint NFT Against Price 
-// Admin can Place NFT on Fixed Price Sale
-// Admin can change price of NFT
-// Admin can Mint NFT for Fixed Price Sale 
-// There should be cateegory of NFT's as like food, Education, Health, and etc
-// withdraw tokens from contract
-
-// Function for User
-
-// functon to purrchase NFT against fixed price
-// remove nft from sale 
-// check NFT Category
-
 // 0 ----> Not On Sale               1 ------> OnFixedPriceSale
 
 // 0 ---> EDUCATION     1 ------> FOOD      2 -------> HEALTH      3 ---------> Other 
-
 
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/security/Pausable.sol";
@@ -30,7 +14,7 @@ import "@openzeppelin/contracts/utils/Counters.sol";
 contract CharityNFT is ERC721, Pausable, Ownable, ERC721Burnable {
     using Counters for Counters.Counter;
 
-    Counters.Counter private _tokenIdCounter;
+    Counters.Counter private _tokenIdCounter;       
 
     mapping (uint => NFT) NftDetails; 
 
@@ -138,12 +122,9 @@ contract CharityNFT is ERC721, Pausable, Ownable, ERC721Burnable {
 
     }
 
-
     event nftPriceUpdated (uint , uint , string); 
     event listedForFixedPrice(uint, string ); 
     event removedFromSale(uint , string) ; 
     event balanceWithdrawn(uint , address,  string );
-
-
 
 }
